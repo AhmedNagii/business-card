@@ -12,6 +12,8 @@ body{
     height: 100vh;
    
 }
+
+/* main design parts */
 .conatiner{
     background-color:#1A1B21;
     width: 330px;
@@ -20,20 +22,40 @@ body{
     border-radius: 1em;
 }
 
+.about,
+.interests{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #F5F5F5;
+    width: 340px;
+    padding: 0 1em ;
+}
 
+footer{
+    background-color: #161619;
+    margin-top: 1em;
+}
+
+.info{
+    text-align: center;
+}
+
+
+/*  */
 .info > img{
     height: 300px;
     width: 100%;
     object-fit: cover;
 }
 
-.info{
-    text-align: center;
-}
+/* typography */
 h1{
     font-size: 25px;
     font-weight: 700;
     margin: .5em;
+}
+.title{
+    margin: 1em 0;
 }
 
 .job{
@@ -52,15 +74,13 @@ a{
     margin-bottom: 1em;
 }
 
+
+
+/* design items */
 button{
     min-width: 300px;
     padding: .5em;
     border-radius: .5em;
-}
-
-footer{
-    background-color: #161619;
-    margin-top: 1em;
 }
 
 .icons-list{
@@ -69,27 +89,11 @@ footer{
     list-style-type: none;
 }
 
-.about,
-.interests{
-    font-weight: 700;
-    font-size: 1rem;
-    color: #F5F5F5;
-    width: 340px;
-    padding: 0 1em ;
-}
-
-.interests{
-margin: 0 0 ;
-}
 .long-sentence{
     color: #DCDCDC;
     font-size: .8rem;
     font-weight: 400;
     margin: 0;
-}
-
-.title{
-    margin: 1em 0;
 }
 
 li{
