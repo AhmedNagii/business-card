@@ -39,15 +39,6 @@ footer{
 .info{
     text-align: center;
 }
-
-
-/*  */
-.info > img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
 /* typography */
 h1{
     font-size: 25px;
@@ -77,6 +68,13 @@ a{
 
 
 /* design items */
+
+.info > img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 button{
     min-width: 300px;
     padding: .5em;
